@@ -10,7 +10,7 @@ export const Activity = ({muiTheme, title, children, onBackClick,  ...rest}) => 
 
   const styles={
     container:{
-      backgroundColor: muiTheme.palette.canvasColor,
+      backgroundColor: "#222",
       marginTop: 64,
       height: '100%'
     },

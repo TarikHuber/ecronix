@@ -10,7 +10,7 @@ const Dashboard = ({intl}) => {
     <Activity
       iconElementRight={
         <FlatButton
-          href="https://github.com/TarikHuber/react-most-wanted"
+          href="https://github.com/TarikHuber/ecronix"
           target="_blank"
           rel="noopener"
           secondary={true}

@@ -12,11 +12,18 @@ export default function configureStore(history) {
   let store;
 
   const logger = createLogger({
-
+    
   });
 
   const initState={
     auth: {...initialState, isAuthorised: isAuthorised()},
+    theme: "dark",
+    locale: "de",
+    responsiveDrawer:{
+      responsive: false,
+      open: false,
+      docked: false
+    }
   };
 
   let middlewares=[routerMiddleware(history), thunk];

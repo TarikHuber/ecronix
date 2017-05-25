@@ -1,7 +1,7 @@
 import {defineMessages} from 'react-intl';
 
 const messages=defineMessages({
-  app_name: 'React Najtrazeniji',
+  app_name: 'Ecronix',
   dashboard: 'Pregled',
   about: 'Opis',
   page_not_found_demo: 'Stranica nije pronadjena',
